@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Title -->
+    <title>Glory</title>
+
+    
+    <link rel="icon" href="./image/letter T.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph.</p>
+</body>
+
+</html>
