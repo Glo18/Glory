@@ -5,7 +5,7 @@ By {Glory Kiogora}
 ## Description
 {This ia a site that gives information that one can use to get to know me better and it also portrays the skills I have acquired}
 To use this website use the following information 
- https://github.com/glo18/glory.git 
+ https://github.com/glo18/personal-website.git 
 ## Setup/Installation Requirements
 Any web browser e.g Mozilla Firefox or Google Chrome.
 
