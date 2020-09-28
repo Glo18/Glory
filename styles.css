@@ -83,3 +83,27 @@
          width: 1000px;
          height: 5000px;
     }
+
+
+
+
+
+    .nav {
+      display: flex;
+
+   }
+
+    
+   ul {
+      float: right;
+      list-style: none;
+      display: flex;
+      
+
+   }
+    nav ul li a {
+       justify-content: space-evenly;
+    }
+
+
+   
