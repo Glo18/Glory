@@ -1,109 +1,116 @@
-
-    h1 {
-       color: rgb(0, 9, 139);
-       text-align: center;
-       font-style: inherit;
-       font: size 100px;
-    }
-    p  {
-       font-family: sans-serif;
-       font: size 50px;
-       color: brown;
-    }
-
-
-    h2  {
-       color: darkblue;
-       font-style: oblique;
-       text-align: initial;
-       font: size 70px;
-    }
-
-
-
-    h3  {
-      font: size 70px;
-       font-style: initial;
-       text-align: justify;
-       color: #000;
-    }
-
-    ul  {
-        line-height: 40px;
-        color: grey;
-        font: size 20px;
-
-        }
-    ol  {
-      line-height: 40px;
-      color: grey;
-      font-size: 20px;
+body {
+   font: 15px/1.5 Arial, Helvetica, sans-serif;
+   padding: 0;
+   margin: 0;
+   background-color: #f4f4f4;
+ }
+ .container {
+   width: 80%;
+   margin: auto;
+ }
+ ul {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ header {
+   background: #353637;
+   color: #ffffff;
+   padding-top: 30px;
+   min-height: 70px;
+   border-bottom: #32a0c2 3px solid;
+ }
+ header li {
+   float: left;
+   display: inline;
+   padding: 0 20px 0 20px;
+ }
+ header #name {
+   float: left;
+ }
+ header #name h1 {
+   margin: auto;
+   font-size: 35px;
+ }
+ header nav {
+   float: right;
+   margin-top: 10px;
+ }
+ header .highlight,
+ header .current a {
+   color: #32a0c2;
+   font-weight: bold;
+ }
+ .body {
+   margin-left: 10px;
+   margin-right: 10px;
+ }
+ 
+ .glory-port {
+   display: flex;
+ }
+ 
+ .welcome {
+   justify-content: center;
+   text-align: center;
+ }
+ .my-name {
+   padding: 30px;
+   font-size: 18px;
+ }
+ 
+ .About-glo {
+   justify-content: center;
+   text-align: center;
+   font-size: 18px;
+ }
+ .glo-hobbies {
+   justify-content: center;
+   align-items: center;
+ }
+ .glo-hobbies {
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 18px;
+ }
+ 
+ .programming-classes {
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 18px;
+ }
+ .portfolio {
+   justify-content: center;
+   text-align: center;
+   line-height: 0.2;
+   font-size: 18px;
+ }
+ .skills {
+   justify-content: center;
+   text-align: center;
+   font-size: 18px;
+   line-height: 1;
+ }
+ .responsive {
+   display: flex;
+   justify-content: space-evenly;
+ }
+ footer {
+   background-color: #353637;
+   height: 40px;
+ }
+ .final {
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   padding-top: 10px;
+ }
+ .responsive p {
+   font-size: 18px;
+   justify-content: center;
+   text-align: center;
+   background-color: #32a0c2;
+ }
+ 
     
-   }
-
-
-   
-    body{
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      background-color: lightsteelblue;
-      background-repeat:no-repeat;
-      background-size:100% ,100% ;
-    }
-
-
-
-
-    div class q {
-          margin: 100px;
-          border: 1px solid greenyellow;
-          float: left;
-          width: 1000px;
-          height: 500px;
-    }
-
-
-
-
-
-    div class t {
-           margin: 100px;
-           border: 1px solid greenyellow;
-           float: left;
-           width: 1000px;
-           height: 5000px;                    
-                  
-    } 
-
-
-
-    div class r {
-         margin: 50px;
-         border: 1px solid greenyellow;
-         float: left;
-         width: 1000px;
-         height: 5000px;
-    }
-
-
-
-
-
-    .nav {
-      display: flex;
-
-   }
-
-    
-   ul {
-      float: right;
-      list-style: none;
-      display: flex;
-      
-
-   }
-    nav ul li a {
-       justify-content: space-evenly;
-    }
-
-
-   
+ 
